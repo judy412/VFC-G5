@@ -1,0 +1,19 @@
+<form action="/exam01/login.action" method="post">
+		<table>
+			<tr>
+				<td><label style="text-align: center;">ID:</label></td>
+				<td><input type="text" name="username"></td>
+			</tr>
+			<tr>
+				<td height="70"><label style="text-align: right;">Password:</label></td>
+			  <td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td height="43" colspan="2" align="center"><input type="submit" value="Login"></td>
+                
+		  <tr onmouseover="this.style.background='#666'"
+  onmouseout="this.style.background=''">
+   </tr>    <td height="27" align="center"colspan="2"><h3><a href="adduser.html">Register</strong></a></h3></td>
+			</tr>
+		</table>
+	</form>
